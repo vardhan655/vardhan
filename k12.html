@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+          background-color: rgb(126, 33, 56);
+          width: 500px;
+          height:350px;
+          border: 75px solid rgb(176, 58, 73);
+          padding: 50px;
+          margin: auto;
+        }
+        .k{
+            color:white;
+            margin-left:100px;
+            width:101px;
+            display:inline-block;
+            
+        }
+        .l{
+            margin-left:0px;
+        }
+        
+
+        </style>
+</head>
+<body>
+   <div>
+    <form>
+        <label class="k" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="your name" ><br><br>
+        <label  class="k" for="email">Email:</label>
+        <input type="email" id="email" placeholder="your email" ><br><br>
+        <label  class="k"for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" ><br><br>
+        <label class="k" for="phn">Phone Number:</label>
+        <input type="tel" id="phn" ><br><br>
+        <label class="k" for="gender">Gender:</label>
+        <label class="l" for="male" style="color:white">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female" style="color:white">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other" style="color:white">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"><br><br>
+        <label class="k" for="lan">Language:</label> 
+        <select  id="lan" name="lan">
+            <option value="choose">select language</option>
+            <option value="A">Saab</option>
+            <option value="B">Fiat</option>
+            <option value="C">Audi</option>
+          </select><br><br>
+        <label  class="k" for="zpc">Zip Code:</label>
+        <input  type="tel" id="zpc"><br><br>
+        <label  class="k" for="about">About:</label> 
+        <textarea rows="2" cols="21">write about yourself...</textarea><br><br>
+        <input  style="width:280px;height:25px;margin-left:100px        "type="submit" value="Register">
+    </form>
+   </div> 
+</body>
+</html>

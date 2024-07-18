@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center> <h1><font color="blue">Registration form</font></h1></center>
+<center>
+<table border="1">
+    <form> 
+        <tr> 
+            <th> 
+                <label for="fname"> 
+                 <center>  First Name </center>
+                </label> 
+            </th> 
+            <td ><input type="text" id="fname" size="50" /> 
+            </td> 
+        </tr>
+        <tr> 
+            <th  > 
+                <label for="lname"> 
+                 <center>  Last Name </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="text" id="lname" /> 
+            </td> 
+        </tr>
+        <tr> 
+            <th><label for="email"> 
+            <center>  Email </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="email" id="email" /> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th><label for="password"> 
+            <center>  Password </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="password" id="password" /> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th><label for="rpassword"> 
+            <center> Re-enter Password </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="password" id="rpassword" /> 
+            </td> 
+        </tr> 
+        <tr>
+            <th rowspan="2 ><label for="gender">Gender:
+            </label>
+            </th>
+            <td> <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label></td>
+          </tr>
+          <tr>
+            <td><input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label></td>
+          </tr>
+          <tr> 
+            <th><label for="age"> 
+            <center> Age: </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="tel" id="age" /> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th><label for="phone"> 
+            <center> Phone Number </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="tel" id="phone" /> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th><label for="address"> 
+            <center>Address </center>
+                </label> 
+            </th> 
+            <td><textarea rows="3" cols="48"></textarea> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th ><label for="state"> 
+            <center>  State </center>
+                </label> 
+            </th> 
+            <td><input size="50" type="text" id="state" /> 
+            </td> 
+        </tr> 
+        <tr> 
+            <th><label for="country"> 
+            <center>Country </center>
+                </label> 
+            </th> 
+            <td> <select  id="country" name="country">
+                <option value="choose">Choose your country</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select>
+            </td> 
+        </tr>
+        <tr> 
+            <th><label for="lan"> 
+            <center>  State </center>
+                </label> 
+            </th> 
+            <td class="textbox">
+                <input type="checkbox" id="lan1" name="lan1" value="english">
+                <label for="lan1"> English</label>
+                <input type="checkbox" id="lan2" name="lan2" value="kannada">
+                <label for="lan2"> Kannada</label>
+                <input type="checkbox" id="lan3" name="lan3" value="hindi">
+                <label for="lan3"> Hindi</label>
+                <input type="checkbox" id="lan4" name="lan4" value="telugu">
+                <label for="lan4"> Telugu</label><br> 
+            </td> 
+        </tr> 
+        <tr>
+            <td colspan="2">
+                <input type="checkbox" id="declaration" /> 
+                <label for="declaration"> Hereby I declare all the given details are true</label>
+            </td> 
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                 Log in to <a href="ethnus.com">Ethnus</a> website
+            </td> 
+        </tr>
+     </form>
+</table> </center><br>
+<center>
+<div>
+<input  type="submit" value="Register">
+</div>
+</center>
+</body>
+</html>
